@@ -27,8 +27,19 @@ def help():
 
 # TODO: Implement banner
 def banner():
-    pass
+  print(f"""
 
+██████╗ ██╗   ██╗███████╗██╗███╗   ██╗██████╗ 
+██╔══██╗╚██╗ ██╔╝██╔════╝██║████╗  ██║██╔══██╗
+██████╔╝ ╚████╔╝ █████╗  ██║██╔██╗ ██║██║  ██║
+██╔═══╝   ╚██╔╝  ██╔══╝  ██║██║╚██╗██║██║  ██║
+██║        ██║   ██║     ██║██║ ╚████║██████╔╝
+╚═╝        ╚═╝   ╚═╝     ╚═╝╚═╝  ╚═══╝╚═════╝ 
+                                              
+  {colorama.Fore.CYAN}| Author:{colorama.Fore.RESET} Atom Striker
+  {colorama.Fore.CYAN}| Github:{colorama.Fore.RESET} https://github.com/AtomStriker
+-----------------------------------------------------
+        """)
 
 def get_ip_info(ip):
     if len(sys.argv) == 1:
@@ -41,7 +52,7 @@ def get_ip_info(ip):
 
 def main():
     ip_info = None
-
+    banner()
     if len(sys.argv) == 1:
         ip_info = get_ip_info(sys.argv[0])
     else:
