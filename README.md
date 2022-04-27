@@ -46,6 +46,8 @@ python PyFind.py <ip address>
 ```
 
 It would usually return something like:
+
+
 <img src="img/70l0iVCPVR.gif">
 
 > *If you're having any issues/problems in PyFind, feel free to open an issue about it*
