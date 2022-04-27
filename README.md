@@ -30,7 +30,7 @@ PyFind is a simple tool to find geolocations of IP addresses. While it's not ver
 3. Download required packages using pip :package:
 
    ```bash
-   pip3 freeze > requirements.txt  
+   pip install -r requirements.txt  
    ```
 
 ## Running :running:
